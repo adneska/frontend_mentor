@@ -1,0 +1,87 @@
+body{
+    background-image: url(./images/pattern-background-desktop.svg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: hsl(225, 100%, 94%);
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;;
+}
+p{
+    font-weight: lighter;
+    color: #6c757d!important;
+}
+.main{
+    margin: 10% auto 5% auto;
+    text-align: center;
+    background-color: white;
+    height: auto;
+    border-radius: 15px;
+    width: 500px;
+    height: 700px;
+    align-items: center;    
+}
+.img{
+    width:500px;
+    border-radius: 8px 8px 0px 0px;
+}
+.infobox{    
+    padding:40px;
+    padding-top: 10px;
+}
+.info{
+    margin: auto;
+    width: 87%;    
+}
+
+.annular_plan{
+  padding: 25px;  
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr; 
+  align-items: center; 
+}
+.block1{
+    text-align: left;
+}
+.block2{
+    text-align: left;
+    font-weight: 900;
+    font-size: 18px;
+}
+.margin{
+    margin: 0px;
+    padding-bottom: 7px;
+    font-weight: 900;
+    font-size: 16px;
+}
+.Change{
+    border: none;
+    display: inline-block;
+    color: hsl(245, 75%, 52%);
+    background-color: hsl(225, 100%, 98%);
+    text-decoration: underline; 
+    font-weight: 900;
+    padding-left: 20px;
+}
+.cost{
+    margin-top: 5px;
+}
+.proceed{
+margin-top: 35px;
+border: none;
+background-color: hsl(245, 75%, 52%);
+color:hsl(225, 100%, 94%);
+width: 100%;
+height: 50px;
+border-radius: 10px;
+font-weight: 900;
+}
+.cancel{
+margin-top:35px;
+border: none;
+background-color: white;
+color: #6c757d!important;
+font-weight: 900;
+}
